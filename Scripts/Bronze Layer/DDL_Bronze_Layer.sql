@@ -8,6 +8,18 @@ SCRIPT OVERVIEW:
 	for the 'bronze' layer tables.
 ===========================================================
 */
+IF OBJECT_ID('Bronze.CRM_Cust_Info', 'U') IS NOT NULL
+	DROP TABLE Bronze.CRM_Cust_Info;
+CREATE TABLE Bronze.CRM_Cust_Info(
+	cst_id INT,
+	cst_key VARCHAR(30),
+	cst_firstname VARCHAR(50),
+	cst_lastname VARCHAR(50),
+	cst_martial_status VARCHAR(20),
+	cst_gndr VARCHAR(20),
+	cst_create_date DATE
+);
+GO
 IF OBJECT_ID('Bronze.CRM_Prd_Info', 'U') IS NOT NULL
 	DROP TABLE Bronze.CRM_Prd_Info;
 CREATE TABLE Bronze.CRM_Prd_Info(
