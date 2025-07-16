@@ -27,7 +27,7 @@ CREATE TABLE Bronze.CRM_Prd_Info(
 	prd_key VARCHAR(30),
 	prd_nm VARCHAR(50),
 	prd_cost INT,
-	prd_line VARCHAR(10),
+	prd_line VARCHAR(30),
 	prd_start_dt DATETIME,
 	prd_end_dt DATETIME
 );
