@@ -1,5 +1,4 @@
 # Modern_Data_Warehouse
-# Data Warehouse and Analytics Project
 
 Welcome to the **Modern Data Warehouse Project**! Here you’ll find a full-stack demonstration of building a modern data warehouse, implementing robust ETL pipelines, and crafting insightful analytics. This portfolio-grade solution highlights industry best practices in data engineering and data analytics.
 ## 🏗️ Medollian Data Warehouse Structure
