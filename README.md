@@ -10,6 +10,7 @@ Our warehouse design follows the **Medollian Architecture**, which organizes dat
 **Gold (Business-Ready)**  
 Transforms Silver data into star schema models (fact and dimension tables) tailored for reporting and BI tools.
 This layering ensures traceability from raw to refined data, simplifies debugging, and scales gracefully as data volume grows.
+![](Docs/Medallion%20Data%20Warehouse%20Architecture.jpg)
 ## 📖 Project Highlights
 **Data Architecture**  
   Architected with Medollian layers to enforce clear separation of concerns and maintain auditability.
@@ -49,4 +50,4 @@ Modern_data_warehouse_project/
 ## 🛡️ License
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for full details.  
 ## About Me
-I am a Business Intelligence Developer passionate about translating complex datasets into clear, action-oriented insights that drive strategic decision-making. With strong skills in SQL, ETL pipeline design, and modern BI tools, I empower teams to harness data effectively and unlock business value.
+I am a Business Intelligence Developer passionate about translating complex datasets into clear, action-oriented insights that drive strategic decision-making.
